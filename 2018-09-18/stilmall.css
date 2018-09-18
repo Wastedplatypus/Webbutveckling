@@ -1,0 +1,21 @@
+body {
+  /* max-width på innehållet
+  i body */
+  max width: 200px;
+  margin: auto;
+  background-color: green;
+  display:block;
+  display:flex;
+}
+/* inline och blockelement */
+/* h1 är ett blockelement, har bredd o höjd
+egenskaper */
+.gul {
+   background-color: yellow;
+}
+#unikt {
+  color:blue;
+}
+body {
+background-color: green;
+}
