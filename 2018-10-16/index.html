@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <style>
+     ol.bokstavar {
+       list-style-type:lower-latin;
+     }
+     </style>
+   </head>
+   <body>
+     <h2>An onordered HTML list</h2>
+    <!--
+     <ul>
+       <li>Coffee</li>
+       <li>Tea</li>
+       <li>Milk</li>
+     </ul>
+     -->
+     <ol> <!-- ol = ordered list, 1,2,3 eller a,b,c -->
+       <li>Choklad</li>
+       <li>Coffee
+         <!-- en ny lista, underlista -->
+         <ol class="bokstavar"> <!-- bokstäver -->
+           <li>Med mjölk</li>
+           <li>Utan mjölk</li>
+         </ol>
+       </li>
+       <li>Milk</li>
+       </ol>
+
+     </body>
+     </html>

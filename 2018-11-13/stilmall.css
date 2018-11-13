@@ -1,0 +1,34 @@
+ body {
+   margin:0;
+ }
+
+ .container {
+display:flex;
+max-width: 900px;
+margin:auto;
+ }
+
+ .content {
+   display:flex;
+
+ }
+
+.vanster, .hoger {
+  display:flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.vanster {
+   background-color: blue;
+}
+
+
+.hoger {
+   background-color: purple;
+}
+
+ .längretillhoger {
+  background-color: green;
+ 
+ }
