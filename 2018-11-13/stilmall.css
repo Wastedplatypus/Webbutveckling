@@ -17,6 +17,7 @@ margin:auto;
   display:flex;
   flex-direction: column;
   padding: 10px;
+  font-family: cursive;
 }
 
 .vanster {
@@ -30,5 +31,6 @@ margin:auto;
 
  .längretillhoger {
   background-color: green;
- 
+  font-family: cursive;
+
  }
